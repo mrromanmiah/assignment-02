@@ -1,0 +1,96 @@
+/* common shared styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section styles */
+
+/* nav bar section */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-icon {
+    width: 86px;
+    height: 40px;
+}
+
+.logo-text {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.secondary-color {
+    color: #FF42A5;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container>ul {
+    display: flex;
+    align-items: center;
+}
+
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+    width: 200px;
+    height: 20px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-box-logo {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-youtube {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.nav-tiktok {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
