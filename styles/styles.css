@@ -12,7 +12,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 150px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     position: sticky;
@@ -22,17 +22,17 @@ nav {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .logo-icon {
-    width: 86px;
-    height: 40px;
+    width: 43px;
+    height: 20px;
 }
 
 .logo-text {
     color: #0B0223;
-    font-size: 2.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -61,7 +61,7 @@ nav a {
     align-items: center;
     color: #3C354F;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.75rem;
     font-weight: 500;
 }
 
@@ -71,12 +71,12 @@ nav a {
     gap: 15px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 17px 24px;
-    width: 200px;
-    height: 20px;
+    padding: 15px 24px;
+    width: 140px;
+    height: 10px;
     color: #3C354F;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.75rem;
     font-weight: 500;
 }
 
@@ -87,28 +87,88 @@ nav a {
 }
 
 .nav-youtube {
-    width: 30px;
-    height: 30px;
+    width: 16px;
+    height: 16px;
 }
 
 .nav-tiktok {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
 }
 
 /* banner section */
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #FFF;
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
-
+    background-size: 650px 500px;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 
+.banner-container {
+    margin: 0px 150px;
+}
 
-.banner-pic{
+.banner-greetings {
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.banner-title {
+    font-size: 3.75rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.banner-des-icon {
+    margin-right: 10px;
+}
+
+.banner-pic {
+    width: 450px;
+    height: 500px;
+    display: block;
+    margin-right: 150px;
+}
+
+.btn-1 {
+    padding: 16px 35px;
+    background-color: #FF42A5;
+    border-radius: 48px;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 150x 30px;
+    margin-right: 10px;
+}
+
+.btn-2{
+    padding: 16px 35px;
+    background-color: #4EC5F7;
+    border-radius: 48px;
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 150x 30px;
 }
