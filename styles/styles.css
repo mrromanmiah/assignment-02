@@ -313,96 +313,121 @@ nav a {
     margin: 80px 150px 0px 150px;
     align-items: center;
     gap: 130px;
-  }
-  
-  .play-instantly-texts {
-    flex: 1; 
+}
+
+.play-instantly-texts {
+    flex: 1;
     text-align: right;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-  }
-  
-  .play-title-rest {
+}
+
+.play-title-rest {
     color: #0B0223;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0px;
-  }
+}
 
-  .play-instantly .gamer-description{
+.play-instantly .gamer-description {
     margin-top: 0;
-  }
-  
-  .play-instantly-big {
+}
+
+.play-instantly-big {
     width: 430px;
     height: 450px;
     margin-left: 90px;
     margin-bottom: 50px;
-  }
-  
-  .play-instantly-small-pic {
+}
+
+.play-instantly-small-pic {
     position: relative;
-  }
-  
-  .play-instantly-small {
+}
+
+.play-instantly-small {
     position: absolute;
     bottom: 0;
     right: 320px;
     width: 218px;
     height: 250px;
-  }
+}
 
-  /* play games section */
+/* play games section */
 
-  .play-games {
+.play-games {
     display: flex;
     margin: 80px 150px 0px 150px;
     align-items: center;
     gap: 130px;
-  }
-  
-  .play-games-big {
+}
+
+.play-games-big {
     width: 430px;
     height: 450px;
     margin-right: 90px;
     margin-bottom: 50px;
-  }
-  
-  .play-games-small-pic {
+}
+
+.play-games-small-pic {
     position: relative;
-  }
-  
-  .play-games-small {
+}
+
+.play-games-small {
     position: absolute;
     bottom: 0;
     left: 320px;
     width: 218px;
     height: 250px;
-  }
-  
-  .play-games-texts {
-    flex: 1; 
+}
+
+.play-games-texts {
+    flex: 1;
     text-align: left;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-  }
-  
-  .play-title-rest {
+}
+
+.play-title-rest {
     color: #0B0223;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0px;
-  }
+}
 
-  .play-games .gamer-description{
+.play-games .gamer-description {
     margin-top: 0;
-  }
+}
 
-  
-  
+
+
+
+/* many button section */
+.many-btns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 150px 0px 150px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.icon-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-img {
+    width: 30px;
+    height: 30px;
+}
+
+.many-btns p {
+    align-items: center;
+    text-align: center;
+}
