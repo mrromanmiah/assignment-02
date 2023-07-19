@@ -254,23 +254,53 @@ nav a {
 .online-games-container {
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px 0px 150px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-.online-games-card {}
+.online-games-images {
+    position: relative;
+}
 
-.online-games-videos {
+.card-pics {
     width: 230px;
     height: 280px;
+    display: block;
 }
 
-.online-games-card-text {
-    color: #534C64;
-    font-size: 0.8rem;
-    font-weight: 500;
+.online-games-contents {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 16px;
 }
 
-.online-games-videos:hover {
-    opacity: 1;
-    transform: scale(1.1);
+.online-games-contents:hover {
+    opacity: 0.6;
+}
+
+.online-games-contents p {
+    color: #FF42A5;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.online-games-contents>* {
+    transform: translateY(10px);
+    transition: transform 0.4s;
+}
+
+.online-games-contents:hover>* {
+    transform: translateY(0px);
 }
