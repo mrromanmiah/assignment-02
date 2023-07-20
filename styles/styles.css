@@ -430,18 +430,19 @@ nav a {
     font-size: 0.75rem;
     font-weight: 400;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .career-list {
     display: flex;
-    gap: 90px;
+    gap: 117px;
     margin-bottom: 20px;
 }
 
 .career-list li {
     list-style: none;
     color: #FFF;
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     font-weight: 600;
     margin-bottom: 10px;
 
@@ -450,7 +451,7 @@ nav a {
 .career a {
     text-decoration: none;
     color: #FFF;
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     font-weight: 600;
 }
 
@@ -793,7 +794,7 @@ footer {
     }
 
     .career-list {
-        gap: 80px;
+        gap: 94px;
         align-items: center;
     }
 
@@ -946,7 +947,7 @@ footer {
     }
 
     .career-list {
-        gap: 25px;
+        gap: 35px;
     }
 
     .career-list li a {
